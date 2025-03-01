@@ -23,7 +23,7 @@ In summary, so_long is a practical introduction to 2D game development and graph
 
 1 - **Clone my repository**
 ```bash
-$ git clone https://github.com/Daviddm03/so_long-42.git
+$ git clone https://github.com/luarmcouto/so_long.git
 ```
 
 2 - **Navigate to the directory**

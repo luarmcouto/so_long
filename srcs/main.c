@@ -6,7 +6,7 @@
 /*   By: luarodri <luarodri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/19 16:25:55 by luarodri          #+#    #+#             */
-/*   Updated: 2025/02/01 12:17:23 by luarodri         ###   ########.fr       */
+/*   Updated: 2025/03/01 22:26:21 by luarodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,7 @@ int	main(int ac, char **av)
 	if (!game.map)
 		return (1);
 	game.moves = 0;
+	game.endgame = 0;
 	game.last_player_x = -1;
 	game.last_player_y = -1;
 	while (i < 6)
